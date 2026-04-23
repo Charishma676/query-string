@@ -13,7 +13,7 @@ namespace query_string
         {
             string firstname = Request.QueryString["firstname"];
             string password = Request.QueryString["password"];
-            label2.Text = "Welcocme" + firstname + "" + password;
+            label2.Text = "Welcocme" + firstname + " " + password;
         }
     }
 }
